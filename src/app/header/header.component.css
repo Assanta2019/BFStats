@@ -1,0 +1,15 @@
+a {
+  text-decoration: none;
+  margin-right: 10px;
+  color: #4d4dff;
+  font-size: 20px;
+}
+
+a:hover {
+  color: aliceblue;
+  transition: ease-in-out .3s ;
+}
+
+.header {
+  margin-left: 295px;
+}
