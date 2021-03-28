@@ -13,71 +13,106 @@ img  {
   max-width: 300px;
 }
 
-.battleClasses {
-  float: left;
-  margin-right: 100px;
-  max-width: 400px;
-  height: 400px;
-  padding-top: 30px;
+.diagramm {
+  margin: 0 auto;
   margin-top: 50px;
+  width: 500px;
+  height: 500px;
+  float: left;
+  margin-left: 200px;
 }
 
-.battleClasses h1 {
-  font-size: 30px;
-  color: aquamarine;
+.percent {
+  font-size: 17px;
+  font-weight: bolder;
+  float: left;
+  margin: 0;
+  padding: 0;
+  margin-top: 12px;
+  margin-bottom: 27px;
+  color: #FFF9A5;
 }
 
-p {
+.diagramm-trooper {
+  margin-right: 250px;
+  float: right;
+  background-color: aquamarine;
+  width: 200px;
+  height: 40px;
+  margin-bottom: 20px;
+}
 
+.name  {
+  font-weight: bolder;
+  color: aliceblue;
+  margin: 0;
+  padding: 0;
+  margin-top: 12px;
+  margin-left: 3px;
 }
 
 .medic {
-  padding-top: 5px;
-  width: 40px;
-  height: 25px;
-  background: tomato;
-  margin-bottom: 10px;
-}
-
-.trooper {
-  padding-top: 5px;
-  width: 70px;
-  height: 25px;
-  background: #5353ff;
-  margin-bottom: 10px;
+  border: 2px solid white;
+  border-radius: 6px;
+  background-color: tomato;
+  margin-right: 250px;
+  float: right;
+  width: 200px;
+  height: 40px;
+  margin-bottom: 20px;
 }
 
 .support {
-  padding-top: 5px;
-  width: 100px;
-  height: 25px;
-  background: #008300;
-  margin-bottom: 10px;
-}
-
-.sniper {
-  padding-top: 5px;
-  width: 50px;
-  height: 25px;
-  background: #ff49ff;
-  margin-bottom: 10px;
-}
-
-.diagram {
-  padding-right: 100px;
-  float: left;
-}
-
-.diagram-weapons {
+  border: 2px solid white;
+  border-radius: 6px;
+  background-color: #10D3E6;
+  margin-right: 250px;
   float: right;
-  margin-right: 100px;
-  max-width: 400px;
-  height: 400px;
-  padding-top: 30px;
-  margin-top: 50px;
+  width: 200px;
+  height: 40px;
+  margin-bottom: 20px;
 }
 
-.diagram-weapons h1 {
-  font-size: 30px;
-  color: aquamarine;
+.trooper {
+  border: 2px solid white;
+  border-radius: 6px;
+  background-color: #5112FE;
+  margin-right: 250px;
+  float: right;
+  width: 200px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.gun {
+  border: 2px solid white;
+  border-radius: 6px;
+  background-color: tomato;
+  margin-right: 250px;
+  float: right;
+  width: 200px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.rifle {
+  border: 2px solid white;
+  border-radius: 6px;
+  background-color: #10D3E6;
+  margin-right: 250px;
+  float: right;
+  width: 200px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.pistol {
+  border: 2px solid white;
+  border-radius: 6px;
+  background-color: #102C65;
+  margin-right: 250px;
+  float: right;
+  width: 200px;
+  height: 40px;
+  margin-bottom: 20px;
 }

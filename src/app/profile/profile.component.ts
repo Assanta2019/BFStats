@@ -8,13 +8,18 @@ import { Component, OnInit } from '@angular/core';
 export class ProfileComponent implements OnInit {
 
   constructor() { }
-  weapons = [
-    {name: 'Kar-98'},
-    {name: 'Винчестер 1891'}
+  battleClasses = [
+    {name: 'Штурмовик', class: 'trooper', percent: 20},
+    {name: 'Медик', class: 'medic', percent: 38},
+    {name: 'Поддержка', class: 'support', percent: 67}
   ];
-  weapon = this.weapons.forEach((i) => {
-    return i;
-  });
+
+  weaponsClasses = [
+    {name: 'Пулемет', class: 'gun', percent: 13},
+    {name: 'Винтовка', class: 'rifle', percent: 48},
+    {name: 'Пистолет', class: 'pistol', percent: 61}
+  ];
+
   date = new Date();
   name = 'Artem';
   maxRating = '5400';
