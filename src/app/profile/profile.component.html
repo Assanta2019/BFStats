@@ -25,7 +25,7 @@
     <h1>Классы оружия</h1>
     <div *ngFor="let i of weaponsClasses">
       <p class="percent">{{i.percent}}%</p>
-      <div class="{{i.class}}">
+      <div [style.width.px]="100 + i.percent" class="{{i.class}}">
         <p class="name">{{i.name}}</p>
       </div>
     </div>
